@@ -1,7 +1,12 @@
+import Layout from "./Layout";
 
 function App() {
   return (
-    <>deneme</>
+    <>
+    <Layout>
+      <p>home</p>
+    </Layout>
+    </>
   );
 }
 
