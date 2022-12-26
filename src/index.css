@@ -1,0 +1,14 @@
+.form-control:focus{
+    border-color: rgb(207, 207, 207)!important;
+    box-shadow: none!important;
+}
+
+.card-img {
+    width: 400px;
+    height: 300px;
+}
+
+.images {
+    width: 412px;
+    height: 300px;
+  }
