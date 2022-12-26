@@ -1,14 +1,50 @@
-.form-control:focus{
-    border-color: rgb(207, 207, 207)!important;
-    box-shadow: none!important;
+.form-control:focus {
+    border-color: rgb(207, 207, 207) !important;
+    box-shadow: none !important;
 }
 
 .card-img {
-    width: 400px;
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+
+.card-img img {
+    width: 412px;
     height: 300px;
 }
 
-.images {
-    width: 412px;
-    height: 300px;
-  }
+.card-img .btn-fav {
+    position: absolute;
+    top: 10%;
+    right: 12%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+.card-img .btn-cart {
+    position: absolute;
+    top: 10%;
+    right: 2%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+.card-img .p-price {
+    position: absolute;
+    bottom: 0%;
+    right: 2%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    padding: 5px 8px;
+    background-color: #f8f9fa;
+    
+}
+
