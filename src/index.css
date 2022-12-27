@@ -5,13 +5,14 @@
 
 .card-img {
     position: relative;
-    width: 100%;
-    max-width: 400px;
 }
 
 .card-img img {
     width: 412px;
     height: 300px;
+}
+.row>* {
+    max-width: 33%!important;
 }
 
 .card-img .btn-fav {
@@ -24,6 +25,7 @@
     cursor: pointer;
     text-align: center;
 }
+
 .card-img .btn-cart {
     position: absolute;
     top: 10%;
@@ -44,7 +46,6 @@
     cursor: pointer;
     text-align: center;
     padding: 5px 8px;
-    background-color: #f8f9fa;
-    
+    background-color: #f8f9fa; 
 }
 
