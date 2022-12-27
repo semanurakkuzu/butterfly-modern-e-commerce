@@ -1,10 +1,10 @@
 import logo from "../images/butterflylogo.png";
 import { MdFavoriteBorder } from "react-icons/md";
 import {GrCart } from "react-icons/gr";
-import {Link} from "react-router-dom"
+
 export default function Nav() {
   return (
-    <div className="container">
+    <div>
       <nav className="navbar navbar-expand-lg bg-light">
         <div className="container-fluid">
           <button
@@ -19,7 +19,7 @@ export default function Nav() {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <a class="navbar-brand" href="#">
+            <a className="navbar-brand" href="#">
               <img src={logo} width="150" height="45" />
             </a>
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
@@ -42,14 +42,14 @@ export default function Nav() {
             <div>
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                  <Link className="nav-link">
+                  <a className="nav-link">
                   <MdFavoriteBorder />
-                  </Link>
+                  </a>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link">
+                  <a className="nav-link">
                   <GrCart/>
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </div>
@@ -57,5 +57,6 @@ export default function Nav() {
         </div>
       </nav>
     </div>
+    
   );
 }
