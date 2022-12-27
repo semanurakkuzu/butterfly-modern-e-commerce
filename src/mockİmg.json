@@ -1,49 +1,59 @@
 [
     {
-        "category":"car",
-        "img":"https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "category":"snow",
+        "img":"https://images.pexels.com/photos/327131/pexels-photo-327131.jpeg?auto=compress&cs=tinysrgb&w=1600",
         "price": "10"
     },
     {
         "category":"flower",
         "img":"https://images.pexels.com/photos/68507/spring-flowers-flowers-collage-floral-68507.jpeg?auto=compress&cs=tinysrgb&w=1600",
-        "price": "10"
+        "price": "15"
     },
     {
         "category":"nature",
         "img":"https://images.pexels.com/photos/572897/pexels-photo-572897.jpeg?auto=compress&cs=tinysrgb&w=1600",
-        "price": "10"
+        "price": "12"
     },   
     {
         "category":"animal",
-        "img":"https://images.pexels.com/photos/1327405/pexels-photo-1327405.jpeg?auto=compress&cs=tinysrgb&w=1600",
-        "price": "10"
+        "img":"https://images.pexels.com/photos/326055/pexels-photo-326055.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "price": "5"
     },  
     {
-        "category":"car",
-        "img":"https://images.pexels.com/photos/1592384/pexels-photo-1592384.jpeg?auto=compress&cs=tinysrgb&w=1600",
-        "price": "10"
-    },  
+        "category":"bike",
+        "img":"https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "price": "8"
+    }, 
     {
         "category":"animal",
         "img":"https://images.pexels.com/photos/567540/pexels-photo-567540.jpeg?auto=compress&cs=tinysrgb&w=1600",
-        "price": "10"
+        "price": "8"
     }, 
     {
         "category":"flower",
         "img":"https://images.pexels.com/photos/583850/pexels-photo-583850.jpeg?auto=compress&cs=tinysrgb&w=1600",
-        "price": "10"
+        "price": "14"
     },  
     {
         "category":"nature",
         "img":"https://images.pexels.com/photos/624015/pexels-photo-624015.jpeg?auto=compress&cs=tinysrgb&w=1600",
-        "price": "10"
+        "price": "16"
     },  
     {
-        "category":"animal",
-        "img":"https://images.pexels.com/photos/4588065/pexels-photo-4588065.jpeg?auto=compress&cs=tinysrgb&w=1600",
-        "price": "10"
-    },   
+        "category":"snow",
+        "img":"https://images.pexels.com/photos/3151907/pexels-photo-3151907.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "price": "12"
+    }, 
+    {
+        "category":"nature",
+        "img":"https://images.pexels.com/photos/4388593/pexels-photo-4388593.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "price": "5"
+    },
+    {
+        "category":"car",
+        "img":"https://images.pexels.com/photos/1592384/pexels-photo-1592384.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "price": "7"
+    },  
     {
         "category":"flower",
         "img":"https://images.pexels.com/photos/1037994/pexels-photo-1037994.jpeg?auto=compress&cs=tinysrgb&w=1600",
@@ -52,21 +62,17 @@
     {
         "category":"car",
         "img":"https://images.pexels.com/photos/627678/pexels-photo-627678.jpeg?auto=compress&cs=tinysrgb&w=1600",
-        "price": "10"
-    },   
+        "price": "12"
+    },
     {
-        "category":"car",
-        "img":"https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "category":"bike",
+        "img":"https://images.pexels.com/photos/1595483/pexels-photo-1595483.jpeg?auto=compress&cs=tinysrgb&w=1600",
         "price": "10"
     }, 
     {
         "category":"nature",
-        "img":"https://images.pexels.com/photos/4388593/pexels-photo-4388593.jpeg?auto=compress&cs=tinysrgb&w=1600",
-        "price": "10"
-    },   
-    {
-        "category":"animal",
-        "img":"https://images.pexels.com/photos/567540/pexels-photo-567540.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "img":"https://images.pexels.com/photos/4101555/pexels-photo-4101555.jpeg?auto=compress&cs=tinysrgb&w=1600",
         "price": "10"
     }
+  
 ]
