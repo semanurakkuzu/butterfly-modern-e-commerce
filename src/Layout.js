@@ -3,9 +3,11 @@ import Nav from "./components/Nav";
 
 export default function Layout({ children }) {
   return (
-    <div className="container">
+      <div>
       <Nav></Nav>
+      <div className="container">
       <main>{children}</main>
+      </div>
     </div>
   );
 }
