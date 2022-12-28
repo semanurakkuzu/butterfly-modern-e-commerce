@@ -4,9 +4,9 @@ import {GrCart } from "react-icons/gr";
 
 export default function Nav() {
   return (
-    <div>
+    <div className="container-fluid m-0 p-0">
       <nav className="navbar navbar-expand-lg bg-light">
-        <div className="container-fluid">
+        <div className="container">
           <button
             className="navbar-toggler"
             type="button"
