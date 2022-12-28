@@ -11,7 +11,7 @@
     width: 412px;
     height: 300px;
 }
-.row>* {
+.row>.card-img {
     max-width: 33%!important;
 }
 
@@ -49,3 +49,6 @@
     background-color: #f8f9fa; 
 }
 
+.mt-170 {
+    margin-top: 170px;
+}
