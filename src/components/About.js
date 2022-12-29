@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import image from "../images/about_image.png";
 import Nav from "./Nav";
 
@@ -13,7 +14,7 @@ export default function About() {
               Over 3 million free high-resolution images brought to you by the
               world’s most generous community of photographers.
             </p>
-            <button className="btn btn-secondary">Start Browsing</button>
+            <Link to="/" className="btn btn-secondary">Start Browsing</Link>
           </div>
           <div className="col">
             <img src={image}></img>

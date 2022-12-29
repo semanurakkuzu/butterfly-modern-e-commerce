@@ -1,6 +1,7 @@
 import logo from "../images/butterflylogo.png";
 import { MdFavoriteBorder } from "react-icons/md";
 import {GrCart } from "react-icons/gr";
+import { Link } from "react-router-dom";
 
 export default function Nav() {
   return (
@@ -19,37 +20,37 @@ export default function Nav() {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <a className="navbar-brand" href="#">
+            <Link to="/" className="navbar-brand">
               <img src={logo} width="150" height="45" />
-            </a>
+            </Link>
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <Link to="/" className="nav-link active" aria-current="page" >
                   Home
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link to="/about" className="nav-link" >
                   About Us
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link to="/contact" className="nav-link" >
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
             <div>
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                  <a className="nav-link">
+                  <Link to="/favorite" className="nav-link">
                   <MdFavoriteBorder />
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link">
+                  <Link to="/cart" className="nav-link">
                   <GrCart/>
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
